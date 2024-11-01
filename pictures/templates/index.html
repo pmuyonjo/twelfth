@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Pictures concerning what I do.</h1>
+<div class="row">
+    {% for pix in pixs %}
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{{ pix.banner.url }}" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">{{ pix.name }}</h5>
+                </div>
+            </div>
+                        
+        </div>
+    </div>
+{% endfor %}
+{% endblock %}

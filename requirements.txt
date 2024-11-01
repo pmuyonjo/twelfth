@@ -1,0 +1,12 @@
+asgiref==3.8.1
+dj-static==0.0.6
+dj-static-incuna==0.0.6
+Django==5.1.2
+pillow==10.4.0
+pytz==2024.1
+setuptools==72.2.0
+sqlparse==0.5.1
+static-ranges==0.2.0
+static3==0.7.0
+tzdata==2024.1
+whitenoise==6.7.0
